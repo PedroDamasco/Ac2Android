@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        android:background="#009688"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/editTextNome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-1dp"
+            android:hint="Nome"
+            android:textColor="#00BCD4"
+            android:textColorLink="#00BCD4"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editTextRA"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="RA"
+            android:inputType="number"
+            android:textColor="#00BCD4"
+            android:textColorLink="#00BCD4"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editTextLogradouro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Logradouro"
+            android:textColor="#00BCD4"
+            android:textColorLink="#00BCD4"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editTextCEP"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="CEP"
+            android:inputType="number"
+            android:textColor="#00BCD4"
+            android:textColorLink="#00BCD4"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editTextCidade"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Cidade"
+            android:textColor="#00BCD4"
+            android:textColorLink="#00BCD4"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editTextBairro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Bairro"
+            android:textColor="#00BCD4"
+            android:textColorLink="#00BCD4"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editTextUF"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Estado"
+            android:textColor="#00BCD4"
+            android:textColorLink="#00BCD4"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editTextComplemento"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Complemento"
+            android:textColor="#00BCD4"
+            android:textColorLink="#00BCD4"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#009688"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/buttonSalvar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Salvar" />
+
+            <Button
+                android:id="@+id/buttonBuscarCEP"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Buscar CEP" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>
